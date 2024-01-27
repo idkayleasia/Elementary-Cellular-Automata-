@@ -85,7 +85,7 @@ int main() {
         cin.get(userInput);
 
         // Clear input buffer to handle Enter key press
-        //OneDimensionalAutomaton.ClearInputBuffer();
+        OneDimensionalAutomaton.ClearInputBuffer();
 
         if(userInput == '\n'){
             OneDimensionalAutomaton.Generate();
